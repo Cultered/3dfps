@@ -198,6 +198,7 @@ public class Mview extends View {
         canvas.drawPath(path, trianglePaint);
     }
 
+
     public void Draw3DLine(float px1,float py1,float pz1,float px2,float py2,float pz2,Canvas canvas,int color){
         int[] screenP1=toScreenCoordinates(px1,py1,pz1);
         int[] screenP2=toScreenCoordinates(px2,py2,pz2);
